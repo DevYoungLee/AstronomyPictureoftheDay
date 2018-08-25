@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:transitionName="@string/image_shared_element"
+        android:contentDescription="@string/image_content_description"
+        android:id="@+id/pv_picture_fullscreen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:contentDescription="@string/share_button_description"
+        android:id="@+id/fab_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_margin_size"
+        android:layout_marginEnd="@dimen/normal_margin_size"
+        android:layout_marginStart="@dimen/normal_margin_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fab_set_as_wallpaper"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:fabSize="mini"
+        android:src="@drawable/ic_share"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:contentDescription="@string/wallpaper_button_description"
+        android:id="@+id/fab_set_as_wallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_margin_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fab_save"
+        app:layout_constraintStart_toEndOf="@+id/fab_share"
+        app:fabSize="mini"
+        android:src="@drawable/ic_wallpaper"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:contentDescription="@string/save_button_description"
+        android:id="@+id/fab_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_margin_size"
+        android:layout_marginEnd="@dimen/normal_margin_size"
+        android:layout_marginStart="@dimen/normal_margin_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fab_set_as_wallpaper"
+        app:fabSize="mini"
+        android:src="@drawable/ic_save"/>
+
+</android.support.constraint.ConstraintLayout>
