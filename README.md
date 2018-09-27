@@ -9,7 +9,7 @@ JSON data is fetched from NASA's APOD Service <br />
 Picasso is used for image loading <br />
 Room is used for persistent data storage which allows for offline use <br />
 RecyclerView with a LinearLayoutManager is used to show the list of images <br />
-Firebase JobDispatcher is used for recurring background task <br />
+Firebase JobDispatcher is used for recurring background tasks <br />
 <br />
 The main screen shows the latest images from the APOD service: <br />
 ![Alt text](screenshots/main_screen.png "Main Screen") <br />
