@@ -4,8 +4,8 @@ Android Application written in Java that displays content from nasa's apod servi
 The application follows MVVM architecture <br />
 A single activity pattern is used for flexible UI <br />
 Dagger 2 is used for handling dependencies <br />
-RxJava 2 is used for backround tasks <br />
-JSON data is fetched from NASA's APOD Service <br />
+RxJava 2 is used for background tasks such as accessing database and network requests <br />
+Retrofit is used to fetch JSON data from NASA's apod API service <br />
 Picasso is used for image loading <br />
 Room is used for persistent data storage which allows for offline use <br />
 RecyclerView with a LinearLayoutManager is used to show the list of images <br />
