@@ -1,5 +1,5 @@
 # AstronomyPictureoftheDay
-Android app that displays content from nasa's apod service <br />
+Android Application written in Java that displays content from nasa's apod service <br />
 <br />
 The application follows MVVM architecture <br />
 A single activity pattern is used for flexible UI <br />
