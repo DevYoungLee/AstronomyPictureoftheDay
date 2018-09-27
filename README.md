@@ -25,7 +25,7 @@ The Settings Screen allows users to toggle notifications and daily wallpaper upd
 Clicking on the image opens a screen for detailed image viewing which allows zooming in/out: <br />
 ![Alt text](screenshots/picture_detail_screen.png "Picture Detail Screen") <br />
 <br />
-On this detail screen, users can share the image or choose to : <br />
+On this detail screen, users can share the image: <br />
 ![Alt text](screenshots/share_screen.png "Share Screen") <br />
 <br />
 Users can also set the image as wallpaper on the homescreen or the lockscreen <br />
@@ -38,7 +38,7 @@ Users can also choose to save the image to external storage and have Google Phot
 <br />
 If you would like to try out the app, 
 sign up for an API key at: https://api.nasa.gov/index.html#apply-for-an-api-key, 
-then enter the key at network/RetrofitService
+then enter the key at network/RetrofitService <br />
 <br />
 Thank you for reading! <br />
 Any suggestions will be greatly appreciated! <br />
